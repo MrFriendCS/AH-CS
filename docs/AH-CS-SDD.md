@@ -57,7 +57,7 @@ print(newPerson.getAge())
 
 ### Inheritance
 
-New classes can be declared that inherit the characteristics of a class, and extend with additional properties and / or methods.
+New classes can be declared that inherit the properties and methods of a class, and extend with additional properties and / or methods.
 
 ``` python
 class Pupil(Person):
@@ -85,7 +85,7 @@ An example is shown below:
 
 ``` python
 # Create a new object
-newPupil= Person("Emma", 17, "S5")
+newPupil= Pupil("Emma", 17, "S5")
 
 # Display their age
 print(newPupil.getAge())
@@ -108,11 +108,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjMwMjUyMzUsLTE0MjkwMzY3NjksND
-IwMjQ2MDM0LDE5Mjc0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5
-NTYxMDIsMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOS
-wtMTkzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5
-NzIyNTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOT
-A4LC02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIx
-NDE0NDE5MDZdfQ==
+eyJoaXN0b3J5IjpbLTI1MjkxMzY2OCwtMTQyOTAzNjc2OSw0Mj
+AyNDYwMzQsMTkyNzQ4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1
+NjEwMiwxODI2OTk3MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC
+0xOTMyODQ4NzksLTE0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3
+MjI1OTgsLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5MD
+gsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMjE0
+MTQ0MTkwNl19
 -->
