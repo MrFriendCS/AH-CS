@@ -8,9 +8,10 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 ## Objects
 
-An object is the way of representing _something_.  It will have properties and methods:
+An object is the way of representing _something_.  An object will have properties and methods:
 
-* P
+* Property - data about the object (a variable)
+* Method - something the object can do (a sub-program)
 
 ### Declaration
 
@@ -133,11 +134,11 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MjkyMDk3LC0xOTM3NzIxMzUxLC0zOD
-UzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5
-LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMT
-gzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcw
-MzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMT
-k0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4
-NjUzOV19
+eyJoaXN0b3J5IjpbLTM3NDg4NTEzNSwtMTkzNzcyMTM1MSwtMz
+g1MzM1NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3
+OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLT
+E4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3
+MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLD
+E5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIw
+ODY1MzldfQ==
 -->
