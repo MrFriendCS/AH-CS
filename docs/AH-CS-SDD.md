@@ -21,6 +21,8 @@ The `class` keyword is used to declare the _blueprint_ for new objects.  New cla
 
 A class contains a constructor method, `__init__`, which is used to create a new object.  It is called automatically when an object is created.
 
+It is normal for the first parameter of any method to be the keyword `self`.  This refers 
+
 ``` python
 class Person:
     """Declare a class to define a person."""
@@ -70,11 +72,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMT
-gyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0
-ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC
-0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1
-MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MD
-YsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1
-OTIxODA2Ml19
+eyJoaXN0b3J5IjpbNzE4NjA1NjM2LC0xODc3MzI3OTA0LC0xND
+Q4OTU2MTAyLDE4MjY5OTcxNTYsLTQ3NTczMTgyMiw5OTczNzU2
+MTksLTE5MzI4NDg3OSwtMTQxODU5OTY4LC0xMDg5MTM2MzczLD
+k1OTcyMjU5OCwtMTkzNzcyMTM1MSwtMzg1MzM1NzEsMTk3NzA4
+MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEwMS
+wyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4
+MzAxNzk3OV19
 -->
