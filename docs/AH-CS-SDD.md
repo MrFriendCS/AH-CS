@@ -29,9 +29,10 @@ class Person:
 An example of using this class is:
 
 ``` python
-
+# Create a new object
 newPerson = Person()
 
+# Access a property
 print(newPerson.name)
 ```
 
@@ -66,11 +67,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk0MDYwMTEsLTE0MTg1OTk2OCwtMT
-A4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3MjEzNTEsLTM4NTMz
-NTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLT
-IwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMz
-NjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMz
-IsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0
-OTgyNjM4XX0=
+eyJoaXN0b3J5IjpbLTE5MzI4NDg3OSwtMTQxODU5OTY4LC0xMD
+g5MTM2MzczLDk1OTcyMjU5OCwtMTkzNzcyMTM1MSwtMzg1MzM1
+NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMj
+A1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2
+MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMi
+w3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5
+ODI2MzhdfQ==
 -->
