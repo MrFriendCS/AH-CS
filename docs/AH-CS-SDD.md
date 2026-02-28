@@ -80,14 +80,14 @@ class Pupil(Person):
         self.__yearGroup = yearGroup
 ```
 
-An example of using an object that has inhertited from is shown below:
+An example is shown below:
 
 ``` python
 # Create a new object
-newPerson = Person("Tom", 18)
+newPupil= Person("Emma", 17, "S5")
 
 # Display their age
-print(newPerson.getAge())
+print(newPupil.getAge())
 ```
 
 
@@ -107,11 +107,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NzE5NTQsLTE0MjkwMzY3NjksNDIwMj
-Q2MDM0LDE5Mjc0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYx
-MDIsMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMT
-kzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIy
-NTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC
-02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0
-NDE5MDZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTQ0NzQ5NDUsLTE0MjkwMzY3NjksND
+IwMjQ2MDM0LDE5Mjc0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5
+NTYxMDIsMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOS
+wtMTkzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5
+NzIyNTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOT
+A4LC02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIx
+NDE0NDE5MDZdfQ==
 -->
