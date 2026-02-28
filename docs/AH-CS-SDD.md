@@ -24,7 +24,7 @@ New classes are named using `CapitalisedWords`.
 A class contains a constructor method, `__init__`, which is used to create a new object.
 It is called automatically when an object is created.
 
-It is normal for the `self` to be the first parameter of any method.  `self` refers to the current object.
+It is normal for `self` to be the first parameter of any method.  `self` refers to the current object.
 
 Properties are kept private by using a double underscore (`__`) before the name of the property.
 Getter and setter methods will need to be provided to access or update the value of the property.
@@ -49,7 +49,7 @@ class Person:
         self.__age = age
 ```
 
-An example of instantiation, creating and object, is shown below:
+An example of instantiation, creating an object, is shown below:
 
 ``` python
 # Create a new object
@@ -61,7 +61,7 @@ print(newPerson.getAge())
 
 ### Inheritance
 
-New classes can be declared that inherit the properties and methods of a class. 
+New classes can be declared that inherit the properties and methods of an existing class. 
 The new class can be extend with additional properties and / or methods.
 
 ``` python
