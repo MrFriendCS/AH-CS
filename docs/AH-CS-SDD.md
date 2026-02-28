@@ -18,8 +18,7 @@ An object is the way of representing _something_ in software.  A string, such as
 ``` python
 class Person:
     """Declare a class to define a person."""
-
-
+    
     def __init__(self, name="", age=0):
         """Object constructor method.  Automatically called when an object is created."""
         
@@ -134,11 +133,11 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDczODI2MCwtMTkzNzcyMTM1MSwtMz
-g1MzM1NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3
-OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLT
-E4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3
-MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLD
-E5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIw
-ODY1MzldfQ==
+eyJoaXN0b3J5IjpbOTU5NzIyNTk4LC0xOTM3NzIxMzUxLC0zOD
+UzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5
+LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMT
+gzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcw
+MzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMT
+k0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4
+NjUzOV19
 -->
