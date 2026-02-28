@@ -27,31 +27,17 @@ class Person:
         self.__age = age    # Private property
 ```
 
-When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.  They must match the formal parameters in order, number, and data types.
-
-``` python
-subroutineName(actualParameter1, actualParameter2, ...)
-```
-
-
 ### Properties
 
 A procedure is a type of sub-routine that ***does not*** return a value.  It must be defined before it can be used.
 
 ``` python
-def square(number):
-    """Display the square of number."""
-    
-    # Calculate result
-    squared = number ** 2
-    
-    print(squared)
+
 ```
 
 A procedure can be called from the main program, or from another sub-routine.
 
 ``` python
-square(2)
 ```
 
 
@@ -60,19 +46,9 @@ square(2)
 A function is another type of sub-routine that ***does*** return a value.  It must be defined before it can be used.
 
 ``` python
-def toThePowerOf(number, power):
-    """Return a number raised to a power."""
-    
-    # Calculate result
-    value = number ** power
-    
-    return value
 ```
 
 A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another operation.
-
-
-```
 
 
 ## Predefine functions
@@ -81,7 +57,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUwMTA1OTYsOTU5NzIyNTk4LC0xOT
+eyJoaXN0b3J5IjpbLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOT
 M3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIx
 NjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMj
 A5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIx
