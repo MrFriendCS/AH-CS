@@ -65,6 +65,7 @@ class Pupil(Person):
 
     def __init__(self, name="", age=0, yearGroup="P1"):
         """Object constructor method.  Automatically called when an object is created."""
+        
         # Use super class initilisation
         super().__init__(name, age)
         
@@ -107,7 +108,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ0NzQ5NDUsLTE0MjkwMzY3NjksND
+eyJoaXN0b3J5IjpbLTIwNjMwMjUyMzUsLTE0MjkwMzY3NjksND
 IwMjQ2MDM0LDE5Mjc0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5
 NTYxMDIsMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOS
 wtMTkzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5
