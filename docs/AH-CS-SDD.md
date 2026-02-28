@@ -40,7 +40,6 @@ print(newPerson.name)
 class Person:
     """Declare a class to define a person."""
 
-
     def __init__(self, name="", age=0):
         """Object constructor method.  Automatically called when an object is created."""
         
@@ -89,11 +88,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTczMTgyMiw5OTczNzU2MTksLTE5Mz
-I4NDg3OSwtMTQxODU5OTY4LC0xMDg5MTM2MzczLDk1OTcyMjU5
-OCwtMTkzNzcyMTM1MSwtMzg1MzM1NzEsMTk3NzA4MjkwOCwtNj
-I0NTAyMTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQx
-OTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OS
-w5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1
-NTk5XX0=
+eyJoaXN0b3J5IjpbMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5Nz
+M3NTYxOSwtMTkzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYz
+NzMsOTU5NzIyNTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOT
+c3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgz
+MTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2My
+wtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4
+MzI2M119
 -->
