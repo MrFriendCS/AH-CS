@@ -36,6 +36,19 @@ newPerson = Person()
 print(newPerson.name)
 ```
 
+``` python
+class Person:
+    """Declare a class to define a person."""
+
+
+    def __init__(self, name="", age=0):
+        """Object constructor method.  Automatically called when an object is created."""
+        
+        # Class properties
+        self.name = name  # Private property
+        self.age = age    # Private property
+```
+
 
 ### Properties
 
@@ -67,11 +80,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3Mzc1NjE5LC0xOTMyODQ4NzksLTE0MT
-g1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3MjEz
-NTEsLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0Mj
-U0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3
-NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLD
-E2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3
-NzM4M119
+eyJoaXN0b3J5IjpbODIwNzcyNDEzLDk5NzM3NTYxOSwtMTkzMj
+g0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4
+LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02Mj
+Q1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5
+MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LD
+k1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1
+OTldfQ==
 -->
