@@ -8,7 +8,7 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 ## Objects
 
-An object is the way of representing _something_.  An object will have properties and methods:
+An object is the way of representing _something_ in software.  A string, such as "Hello", is an objects, but new objec.  An object will have properties and methods:
 
 * Property - data about the object (a variable)
 * Method - something the object can do (a sub-program)
@@ -134,11 +134,11 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDg4NTEzNSwtMTkzNzcyMTM1MSwtMz
-g1MzM1NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3
-OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLT
-E4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3
-MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLD
-E5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIw
-ODY1MzldfQ==
+eyJoaXN0b3J5IjpbLTEwODE5MTE0ODMsLTE5Mzc3MjEzNTEsLT
+M4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5
+NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC
+0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIy
+NzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4My
+wxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMy
+MDg2NTM5XX0=
 -->
