@@ -15,7 +15,7 @@ An object is a way of representing _something_ in software, e.g. a person or a v
 
 ### Declaration
 
-The `class` keyword is used to declare the _blueprint_ for new objects of a specified type.  New classes are named using `CapitalisedWords`.
+The `class` keyword is used to declare the _blueprint_ for new objects.  New classes are named using `CapitalisedWords`.
 
 ``` python
 class Person:
@@ -67,11 +67,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI4NDg3OSwtMTQxODU5OTY4LC0xMD
-g5MTM2MzczLDk1OTcyMjU5OCwtMTkzNzcyMTM1MSwtMzg1MzM1
-NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMj
-A1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2
-MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMi
-w3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5
-ODI2MzhdfQ==
+eyJoaXN0b3J5IjpbOTk3Mzc1NjE5LC0xOTMyODQ4NzksLTE0MT
+g1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3MjEz
+NTEsLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0Mj
+U0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3
+NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLD
+E2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3
+NzM4M119
 -->
