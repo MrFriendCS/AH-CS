@@ -6,7 +6,7 @@ All the code examples use Python.
 
 These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
 
-## Objects
+## Object Orientate
 
 An object is a way of representing _something_ in software, e.g. a person or a vehicle.  A string, such as "Hello", is an object.  An object will have properties and methods:
 
@@ -88,11 +88,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5Nz
-M3NTYxOSwtMTkzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYz
-NzMsOTU5NzIyNTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOT
-c3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgz
-MTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2My
-wtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4
-MzI2M119
+eyJoaXN0b3J5IjpbNDcyMDI1OTM4LDE4MjY5OTcxNTYsLTQ3NT
+czMTgyMiw5OTczNzU2MTksLTE5MzI4NDg3OSwtMTQxODU5OTY4
+LC0xMDg5MTM2MzczLDk1OTcyMjU5OCwtMTkzNzcyMTM1MSwtMz
+g1MzM1NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3
+OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLT
+E4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3
+MDMzMl19
 -->
