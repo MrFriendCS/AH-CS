@@ -6,7 +6,9 @@ All the code examples use Python.
 
 These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
 
-## Object Orientate
+## Object Orientated Programming (OOP)
+
+Classes create objects.  Objects have properties and methods.
 
 An object is a way of representing _something_ in software, e.g. a person or a vehicle.  A string, such as "Hello", is an object.  An object will have properties and methods:
 
@@ -88,11 +90,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMDI1OTM4LDE4MjY5OTcxNTYsLTQ3NT
-czMTgyMiw5OTczNzU2MTksLTE5MzI4NDg3OSwtMTQxODU5OTY4
-LC0xMDg5MTM2MzczLDk1OTcyMjU5OCwtMTkzNzcyMTM1MSwtMz
-g1MzM1NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3
-OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLT
-E4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3
-MDMzMl19
+eyJoaXN0b3J5IjpbLTE0NDg5NTYxMDIsMTgyNjk5NzE1NiwtND
+c1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC0xNDE4NTk5
+NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3NzIxMzUxLC
+0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4
+OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNy
+wtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEy
+MjcwMzMyXX0=
 -->
