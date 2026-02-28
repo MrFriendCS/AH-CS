@@ -75,7 +75,7 @@ class Pupil(Person):
         """Getter method for yearGroup."""
         return self.__yearGroup
 
-    def getYearGroup(self, yearGroup="P1"):
+    def setYearGroup(self, yearGroup="P1"):
         """Setter method for yearGroup."""
         self.__yearGroup = yearGroup
 ```
@@ -102,7 +102,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM1ODQ4NTMsNDIwMjQ2MDM0LDE5Mj
+eyJoaXN0b3J5IjpbLTE0MjkwMzY3NjksNDIwMjQ2MDM0LDE5Mj
 c0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMTgyNjk5
 NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC
 0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3
