@@ -71,59 +71,7 @@ def toThePowerOf(number, power):
 
 A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another operation.
 
-__Returned value assigned__
 
-``` python
-answer = toThePowerOf(2, 5)
-
-print(answer)
-```
-
-__Returned value used__
-
-``` python
-answer = 64 - toThePowerOf(2, 5)
-
-print(answer)
-```
-
-
-#### Return multiple values
-
-Functions can return a tuple [term not part of Higher] that contains multiple values, similar to an array.  These values can be assigned to individual variables when returned.
-
-``` python
-def myData():
-    """Return an integer and a string."""
-    
-    # Return a tuple
-    return 21, "Tom"
-```
-
-``` python
-# Display returned tuple
-print(myData())
-```
-
-``` python
-# Assign to a tuple
-myTuple = myData()
-
-# Display the tuple
-print(myTuple)
-
-# Display individual values
-print(myTuple[0])
-print(myTuple[1])
-```
-
-``` python
-# Assign directly to variables
-age, name = myData()
-
-# Display values
-print(age)
-print(name)
 ```
 
 
@@ -133,11 +81,11 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NzIyNTk4LC0xOTM3NzIxMzUxLC0zOD
-UzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5
-LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMT
-gzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcw
-MzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMT
-k0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4
-NjUzOV19
+eyJoaXN0b3J5IjpbLTEwNTUwMTA1OTYsOTU5NzIyNTk4LC0xOT
+M3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIx
+NjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMj
+A5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIx
+ODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLT
+EzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5
+MjA3NjNdfQ==
 -->
