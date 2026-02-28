@@ -70,13 +70,15 @@ class Pupil(Person):
         # Class property
         self.__yearGroup = yearGroup  # Private property
 
-    def getAge(self):
-        """Getter method for age."""
-        return self.__age
+    def getYearGroup(self):
+        """Getter method for yearGroup."""
+        return self.yearGroup
 
-    def setAge(self, age=0):
-        """Setter method for age."""
-        self.__age = agedef getAge(self):
+    def getYearGroup(self, yearGroup="P1"):
+        """Setter method for yearGroup."""
+        self.__age = age
+    
+    def getAge(self):
         """Getter method for age."""
         return self.__age
 
@@ -107,7 +109,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjQ1MzM1OCw0MjAyNDYwMzQsMTkyNz
+eyJoaXN0b3J5IjpbMjAzMDEwOTA1OSw0MjAyNDYwMzQsMTkyNz
 Q4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1NjEwMiwxODI2OTk3
 MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC0xOTMyODQ4NzksLT
 E0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3
