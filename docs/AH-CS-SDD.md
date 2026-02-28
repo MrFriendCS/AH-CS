@@ -10,20 +10,24 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 Classes create objects.  Objects have properties and methods.
 
-An object is a way of representing _something_ in software, e.g. a person or a vehicle.  Objects have properties and methods:
+An object is a way of representing _something_ in software, e.g. a person or a vehicle.
+Objects have properties and methods:
 
 * Property - something about the object (a variable: data)
 * Method - something the object can do (a sub-program: behaviour)
 
 ### Declaration
 
-The `class` keyword is used to declare the _blueprint_ for new objects.  New classes are named using `CapitalisedWords`.
+The `class` keyword is used to declare the _blueprint_ for new objects.
+New classes are named using `CapitalisedWords`.
 
-A class contains a constructor method, `__init__`, which is used to create a new object.  It is called automatically when an object is created.
+A class contains a constructor method, `__init__`, which is used to create a new object.
+It is called automatically when an object is created.
 
 It is normal for the `self` to be the first parameter of any method.  `self` refers to the current object.
 
-Properties are kept private by using a double underscore (`__`) before the name of the property.  Getter and setter methods will need to be provided to access or update the value of the property.
+Properties are kept private by using a double underscore (`__`) before the name of the property.
+Getter and setter methods will need to be provided to access or update the value of the property.
 
 ``` python
 class Person:
@@ -57,7 +61,8 @@ print(newPerson.getAge())
 
 ### Inheritance
 
-New classes can be declared that inherit the properties and methods of a class, and extend with additional properties and / or methods.
+New classes can be declared that inherit the properties and methods of a class. 
+The new class can be extend with additional properties and / or methods.
 
 ``` python
 class Pupil(Person):
@@ -92,23 +97,9 @@ print(newPupil.getAge())
 ```
 
 
-### Methods
-
-A function is another type of sub-routine that ***does*** return a value.  It must be defined before it can be used.
-
-``` python
-```
-
-A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another operation.
-
-
-## Predefine functions
-
-### Character to ASCII
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjkxMzY2OCwtMTQyOTAzNjc2OSw0Mj
+eyJoaXN0b3J5IjpbLTgzNzQ3MzA4MCwtMTQyOTAzNjc2OSw0Mj
 AyNDYwMzQsMTkyNzQ4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1
 NjEwMiwxODI2OTk3MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC
 0xOTMyODQ4NzksLTE0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3
