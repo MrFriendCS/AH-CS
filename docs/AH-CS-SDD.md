@@ -8,7 +8,9 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 ## Objects
 
-When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
+An object is the way of representing _something_.  It will have properties and methods:
+
+* P
 
 ### Declaration
 
@@ -131,11 +133,11 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MTU1NjksLTE5Mzc3MjEzNTEsLTM4NT
-MzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5Nzks
-LTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xOD
-MzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAz
-MzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOT
-Q0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2
-NTM5XX0=
+eyJoaXN0b3J5IjpbODc2MjkyMDk3LC0xOTM3NzIxMzUxLC0zOD
+UzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5
+LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMT
+gzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcw
+MzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMT
+k0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4
+NjUzOV19
 -->
