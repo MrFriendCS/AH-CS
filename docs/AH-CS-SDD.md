@@ -36,21 +36,13 @@ class Person:
         self.__name = name  # Private property
         self.__age = age    # Private property
 
-	def getAge(self):
+    def getAge(self):
         """Getter method for age."""
-        
         return self.__age
-
-    def setName(self, name=""):
-        """Setter method for age."""
-        
-        # Update name property
-        self.__name = name
-
 
     def setAge(self, age=0):
         """Setter method for age."""
-        
+       
         # Update age property
         self.__age = age
 ```
@@ -92,11 +84,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTM1NjA5NSw0MjAyNDYwMzQsMTkyNz
-Q4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1NjEwMiwxODI2OTk3
-MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC0xOTMyODQ4NzksLT
-E0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3
-MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Ny
-w0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDky
-NjM3NzE3XX0=
+eyJoaXN0b3J5IjpbLTEwOTIzODA3OTMsNDIwMjQ2MDM0LDE5Mj
+c0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMTgyNjk5
+NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC
+0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3
+NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNj
+csNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5
+MjYzNzcxN119
 -->
