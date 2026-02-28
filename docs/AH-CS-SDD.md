@@ -28,7 +28,7 @@ class Person:
     age = 18
 ```
 
-An example of using this class is:
+An example of instantiation, creating and object, is shown below:
 
 ``` python
 # Create a new object
@@ -90,7 +90,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDU4MzE1NiwtMTQ0ODk1NjEwMiwxOD
+eyJoaXN0b3J5IjpbLTg3NzI2Mjc5NiwtMTQ0ODk1NjEwMiwxOD
 I2OTk3MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC0xOTMyODQ4
 NzksLTE0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLT
 E5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUw
