@@ -19,24 +19,7 @@ An object is a way of representing _something_ in software, e.g. a person or a v
 
 The `class` keyword is used to declare the _blueprint_ for new objects.  New classes are named using `CapitalisedWords`.
 
-``` python
-class Person:
-    """Declare a class to define a person."""
-
-    # Class properties
-    name = "Tom"
-    age = 18
-```
-
-An example of instantiation, creating and object, is shown below:
-
-``` python
-# Create a new object
-newPerson = Person()
-
-# Access a property
-print(newPerson.name)
-```
+A con
 
 ``` python
 class Person:
@@ -46,18 +29,15 @@ class Person:
         """Object constructor method.  Automatically called when an object is created."""
         
         # Class properties
-        self.name = name  # Private property
-        self.age = age    # Private property
+        self.__name = name  # Private property
+        self.__age = age    # Private property
 ```
 
-An example of using this class is:
+An example of instantiation, creating and object, is shown below:
 
 ``` python
 # Create a new object
 newPerson = Person(("Tom", 18)
-
-# Access a property
-print(newPerson.name)
 ```
 
 ### Properties
@@ -90,7 +70,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzI2Mjc5NiwtMTQ0ODk1NjEwMiwxOD
+eyJoaXN0b3J5IjpbMTg4OTU1NDUzMywtMTQ0ODk1NjEwMiwxOD
 I2OTk3MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC0xOTMyODQ4
 NzksLTE0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLT
 E5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUw
