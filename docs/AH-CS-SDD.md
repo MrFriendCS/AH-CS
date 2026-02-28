@@ -15,7 +15,7 @@ An object is a way of representing _something_ in software, e.g. a person or a v
 
 ### Declaration
 
-Object are declare using the `class` keyword.  Objects are named using `CapitalisedWords`.
+Object are declared using the `class` keyword.  Objects are named using `CapitalisedWords`.
 
 ``` python
 class Person:
@@ -63,7 +63,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUyODM0MCwtMTA4OTEzNjM3Myw5NT
+eyJoaXN0b3J5IjpbLTE0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NT
 k3MjI1OTgsLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5
 MDgsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMj
 E0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMw
