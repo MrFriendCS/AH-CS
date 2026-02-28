@@ -10,8 +10,8 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 An object is a way of representing _something_ in software, e.g. a person or a vehicle.  A string, such as "Hello", is an object.  An object will have properties and methods:
 
-* Property - something about the object (a variable)
-* Method - something the object can do (a sub-program)
+* Property - something about the object (a variable / data)
+* Method - something the object can do (a sub-program / behaviour)
 
 ### Declaration
 
@@ -29,7 +29,10 @@ class Person:
 An example of using this class is:
 
 ``` python
+
 newPerson = Person()
+
+print(newPerson.name)
 ```
 
 
@@ -63,7 +66,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzcxMzc1NiwtMTQxODU5OTY4LC0xMD
+eyJoaXN0b3J5IjpbMTMwMzA5NzM0NSwtMTQxODU5OTY4LC0xMD
 g5MTM2MzczLDk1OTcyMjU5OCwtMTkzNzcyMTM1MSwtMzg1MzM1
 NzEsMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMj
 A1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2
