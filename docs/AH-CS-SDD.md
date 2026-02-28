@@ -19,7 +19,7 @@ An object is a way of representing _something_ in software, e.g. a person or a v
 
 The `class` keyword is used to declare the _blueprint_ for new objects.  New classes are named using `CapitalisedWords`.
 
-A clconstructor method, `__init__`, is used to create a new object.  It is called automatically when an object is created.
+A class contains a constructor method, `__init__`, which is used to create a new object.  It is called automatically when an object is created.
 
 ``` python
 class Person:
@@ -70,11 +70,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4MTU1MTk2LC0xNDQ4OTU2MTAyLDE4Mj
-Y5OTcxNTYsLTQ3NTczMTgyMiw5OTczNzU2MTksLTE5MzI4NDg3
-OSwtMTQxODU5OTY4LC0xMDg5MTM2MzczLDk1OTcyMjU5OCwtMT
-kzNzcyMTM1MSwtMzg1MzM1NzEsMTk3NzA4MjkwOCwtNjI0NTAy
-MTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LD
-IwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTky
-MTgwNjJdfQ==
+eyJoaXN0b3J5IjpbLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMT
+gyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0
+ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC
+0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1
+MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MD
+YsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1
+OTIxODA2Ml19
 -->
