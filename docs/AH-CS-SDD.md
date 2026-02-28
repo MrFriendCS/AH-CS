@@ -10,6 +10,8 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
 
+### Declaration
+
 ``` python
 class Person:
     """Declare a class to define a person."""
@@ -129,11 +131,11 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYzNTY1NDQsLTE5Mzc3MjEzNTEsLT
-M4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5
-NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC
-0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIy
-NzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4My
-wxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMy
-MDg2NTM5XX0=
+eyJoaXN0b3J5IjpbNTk0MTU1NjksLTE5Mzc3MjEzNTEsLTM4NT
+MzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5Nzks
+LTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xOD
+MzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAz
+MzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOT
+Q0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2
+NTM5XX0=
 -->
