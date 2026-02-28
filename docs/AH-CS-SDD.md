@@ -59,7 +59,30 @@ print(newPerson.getAge())
 New classes can be declared that inherit the characteristics of a class, and extend with additional properties and / or methods.
 
 ``` python
+class Pupil(Person):
+    """Declare a class of to define a pupil.  Inherits from the Person class."""
 
+    def __init__(self, name="", age=0, yearGroup="P1"):
+        """Object constructor method.  Automatically called when an object is created."""
+        # Use super class initilisation
+        super().__init__(name, age)
+        
+        # Class property
+        self.__yearGroup = yearGroup  # Private property
+
+    def getAge(self):
+        """Getter method for age."""
+        return self.__age
+
+    def setAge(self, age=0):
+        """Setter method for age."""
+        self.__age = agedef getAge(self):
+        """Getter method for age."""
+        return self.__age
+
+    def setAge(self, age=0):
+        """Setter method for age."""
+        self.__age = age
 ```
 
 A procedure can be called from the main program, or from another sub-routine.
@@ -84,11 +107,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA3NDY1MzksNDIwMjQ2MDM0LDE5Mj
-c0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMTgyNjk5
-NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC
-0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3
-NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNj
-csNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5
-MjYzNzcxN119
+eyJoaXN0b3J5IjpbLTU3NjQ1MzM1OCw0MjAyNDYwMzQsMTkyNz
+Q4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1NjEwMiwxODI2OTk3
+MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC0xOTMyODQ4NzksLT
+E0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3
+MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Ny
+w0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDky
+NjM3NzE3XX0=
 -->
