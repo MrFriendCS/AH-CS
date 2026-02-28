@@ -31,9 +31,10 @@ class Person:
 
     def __init__(self, name="", age=0):
         """Object constructor method.  Automatically called when an object is created."""
-        # Class properties
-        self.__name = name  # Private property
-        self.__age = age    # Private property
+        
+        # Class properties - Private
+        self.__name = name
+        self.__age = age
 
     def getAge(self):
         """Getter method for age."""
@@ -60,15 +61,15 @@ New classes can be declared that inherit the characteristics of a class, and ext
 
 ``` python
 class Pupil(Person):
-    """Declare a class of to define a pupil.  Inherits from the Person class."""
+    """Declare a class to define a pupil.  Inherits from the Person class."""
 
     def __init__(self, name="", age=0, yearGroup="P1"):
         """Object constructor method.  Automatically called when an object is created."""
         # Use super class initilisation
         super().__init__(name, age)
         
-        # Class property
-        self.__yearGroup = yearGroup  # Private property
+        # Class property - Private
+        self.__yearGroup = yearGroup
 
     def getYearGroup(self):
         """Getter method for yearGroup."""
@@ -76,15 +77,7 @@ class Pupil(Person):
 
     def getYearGroup(self, yearGroup="P1"):
         """Setter method for yearGroup."""
-        self.__age = age
-    
-    def getAge(self):
-        """Getter method for age."""
-        return self.__age
-
-    def setAge(self, age=0):
-        """Setter method for age."""
-        self.__age = age
+        self.__yearGroup = yearGroup
 ```
 
 A procedure can be called from the main program, or from another sub-routine.
@@ -109,7 +102,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDEwOTA1OSw0MjAyNDYwMzQsMTkyNz
+eyJoaXN0b3J5IjpbLTk1OTkxNTgyOSw0MjAyNDYwMzQsMTkyNz
 Q4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1NjEwMiwxODI2OTk3
 MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC0xOTMyODQ4NzksLT
 E0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3MjI1OTgsLTE5Mzc3
