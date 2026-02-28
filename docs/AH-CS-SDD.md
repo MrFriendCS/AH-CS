@@ -54,9 +54,9 @@ newPerson = Person("Tom", 18)
 print(newPerson.getAge())
 ```
 
-### Inheritence
+### Inheritance
 
-Classes can be extend.  
+New classes can be declared that inherit the characteristics of a class, and extend with additional properties and / or methods.
 
 ``` python
 
@@ -84,7 +84,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ3MDY0MDAsNDIwMjQ2MDM0LDE5Mj
+eyJoaXN0b3J5IjpbLTE4ODA3NDY1MzksNDIwMjQ2MDM0LDE5Mj
 c0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMTgyNjk5
 NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC
 0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3
