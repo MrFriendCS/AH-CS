@@ -31,7 +31,6 @@ class Person:
 
     def __init__(self, name="", age=0):
         """Object constructor method.  Automatically called when an object is created."""
-        
         # Class properties
         self.__name = name  # Private property
         self.__age = age    # Private property
@@ -42,8 +41,6 @@ class Person:
 
     def setAge(self, age=0):
         """Setter method for age."""
-       
-        # Update age property
         self.__age = age
 ```
 
@@ -52,6 +49,9 @@ An example of instantiation, creating and object, is shown below:
 ``` python
 # Create a new object
 newPerson = Person(("Tom", 18)
+
+# Display their age
+print(newPerson.getAge()
 ```
 
 ### Properties
@@ -84,7 +84,7 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIzODA3OTMsNDIwMjQ2MDM0LDE5Mj
+eyJoaXN0b3J5IjpbLTIxMjQ5NzAzNTEsNDIwMjQ2MDM0LDE5Mj
 c0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMTgyNjk5
 NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC
 0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3
