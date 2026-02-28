@@ -11,10 +11,16 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
 
 ``` python
-def subroutineName(formalParameter1, formalParameter2, ...):
-    """docstring"""
-    
-    <sub-routine code>
+class Person:
+    """Declare a class to define a person."""
+
+
+    def __init__(self, name="", age=0):
+        """Object constructor method.  Automatically called when an object is created."""
+        
+        # Class properties
+        self.__name = name  # Private property
+        self.__age = age    # Private property
 ```
 
 When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.  They must match the formal parameters in order, number, and data types.
@@ -123,7 +129,7 @@ print(name)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEzMzYyOTksLTE5Mzc3MjEzNTEsLT
+eyJoaXN0b3J5IjpbLTEzOTYzNTY1NDQsLTE5Mzc3MjEzNTEsLT
 M4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5
 NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC
 0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIy
