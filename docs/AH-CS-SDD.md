@@ -4,10 +4,9 @@
 
 All the code examples use Python.
 
-These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will be a `function` that does not explicitly return a value.   Any reference to a `record` is a Class using the `@dataclass` decorator. 
+These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
 
-
-## Sub-routines
+## Object Orientat
 
 When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
 
@@ -660,11 +659,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5Nz
-cwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMx
-MDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC
-05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgz
-MjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LD
-E4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zNDQ4
-MDkyNTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMzgyOTE3ODIsLTE5Mzc3MjEzNTEsLT
+M4NTMzNTcxLDE5NzcwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5
+NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC
+0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIy
+NzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4My
+wxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMy
+MDg2NTM5XX0=
 -->
