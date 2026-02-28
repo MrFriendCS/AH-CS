@@ -80,9 +80,14 @@ class Pupil(Person):
         self.__yearGroup = yearGroup
 ```
 
-A procedure can be called from the main program, or from another sub-routine.
+An example of using an object that has inhertited from is shown below:
 
 ``` python
+# Create a new object
+newPerson = Person("Tom", 18)
+
+# Display their age
+print(newPerson.getAge())
 ```
 
 
@@ -102,11 +107,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjkwMzY3NjksNDIwMjQ2MDM0LDE5Mj
-c0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYxMDIsMTgyNjk5
-NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMTkzMjg0ODc5LC
-0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4LC0xOTM3
-NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02MjQ1MDIxNj
-csNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5
-MjYzNzcxN119
+eyJoaXN0b3J5IjpbMzg3NzE5NTQsLTE0MjkwMzY3NjksNDIwMj
+Q2MDM0LDE5Mjc0ODExMTIsLTE4NzczMjc5MDQsLTE0NDg5NTYx
+MDIsMTgyNjk5NzE1NiwtNDc1NzMxODIyLDk5NzM3NTYxOSwtMT
+kzMjg0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIy
+NTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC
+02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0
+NDE5MDZdfQ==
 -->
