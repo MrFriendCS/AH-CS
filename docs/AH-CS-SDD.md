@@ -15,7 +15,7 @@ An object is a way of representing _something_ in software, e.g. a person or a v
 
 ### Declaration
 
-Object are declare using the `class` keyword.  Objects are names using `CapitalisedWords`.
+Object are declare using the `class` keyword.  Objects are named using `CapitalisedWords`.
 
 ``` python
 class Person:
@@ -25,6 +25,13 @@ class Person:
     name = "Tom"
     age = 18
 ```
+
+An example of using this class is:
+
+``` python
+
+```
+
 
 ### Properties
 
@@ -56,11 +63,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTczNzA1NzUsLTEwODkxMzYzNzMsOT
-U5NzIyNTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgy
-OTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLD
-IxNDE0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgz
-MDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2My
-w2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3
-ODUwODUzXX0=
+eyJoaXN0b3J5IjpbLTE4NzUyODM0MCwtMTA4OTEzNjM3Myw5NT
+k3MjI1OTgsLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5
+MDgsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMj
+E0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMw
+MTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLD
+Y5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4
+NTA4NTNdfQ==
 -->
