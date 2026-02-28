@@ -49,6 +49,15 @@ class Person:
         self.age = age    # Private property
 ```
 
+An example of using this class is:
+
+``` python
+# Create a new object
+newPerson = Person(("Tom", 18)
+
+# Access a property
+print(newPerson.name)
+```
 
 ### Properties
 
@@ -80,11 +89,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNzcyNDEzLDk5NzM3NTYxOSwtMTkzMj
-g0ODc5LC0xNDE4NTk5NjgsLTEwODkxMzYzNzMsOTU5NzIyNTk4
-LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgyOTA4LC02Mj
-Q1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5
-MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LD
-k1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1
-OTldfQ==
+eyJoaXN0b3J5IjpbLTQ3NTczMTgyMiw5OTczNzU2MTksLTE5Mz
+I4NDg3OSwtMTQxODU5OTY4LC0xMDg5MTM2MzczLDk1OTcyMjU5
+OCwtMTkzNzcyMTM1MSwtMzg1MzM1NzEsMTk3NzA4MjkwOCwtNj
+I0NTAyMTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQx
+OTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OS
+w5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1
+NTk5XX0=
 -->
