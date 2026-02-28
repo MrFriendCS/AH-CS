@@ -8,7 +8,7 @@ These notes are focused on Advanced Higher Computing Science so some terms may b
 
 ## Objects
 
-An object is the way of representing _something_ in software.  A string, such as "Hello", is an object.  An object will have properties and methods:
+An object is a way of representing _something_ in software, e.g. a person or a vehicle.  A string, such as "Hello", is an object.  An object will have properties and methods:
 
 * Property - data about the object (a variable)
 * Method - something the object can do (a sub-program)
@@ -54,11 +54,11 @@ A function can be called from the main program, or from another sub-routine.  To
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzIxMjU2NiwtMTA4OTEzNjM3Myw5NT
-k3MjI1OTgsLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5
-MDgsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMj
-E0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMw
-MTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLD
-Y5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4
-NTA4NTNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzMzMjkyODYsLTEwODkxMzYzNzMsOT
+U5NzIyNTk4LC0xOTM3NzIxMzUxLC0zODUzMzU3MSwxOTc3MDgy
+OTA4LC02MjQ1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLD
+IxNDE0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgz
+MDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2My
+w2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3
+ODUwODUzXX0=
 -->
