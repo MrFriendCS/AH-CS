@@ -1,10 +1,12 @@
 # Software Design and Development
 
+
 ## Notes
 
 All the code examples use Python.
 
 These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
+
 
 ## Object-Orientated Programming (OOP)
 
@@ -15,6 +17,7 @@ Objects have properties and methods:
 
 * Property - something about the object (a variable: data)
 * Method - something the object can do (a sub-program: behaviour)
+
 
 ### Declaration
 
@@ -59,6 +62,7 @@ newPerson = Person("Tom", 18)
 print(newPerson.getAge())
 ```
 
+
 ### Inheritance
 
 New classes can be declared that inherit the properties and methods of an existing class. 
@@ -95,15 +99,3 @@ newPupil= Pupil("Emma", 17, "S5")
 # Display their age
 print(newPupil.getAge())
 ```
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzQ3MzA4MCwtMTQyOTAzNjc2OSw0Mj
-AyNDYwMzQsMTkyNzQ4MTExMiwtMTg3NzMyNzkwNCwtMTQ0ODk1
-NjEwMiwxODI2OTk3MTU2LC00NzU3MzE4MjIsOTk3Mzc1NjE5LC
-0xOTMyODQ4NzksLTE0MTg1OTk2OCwtMTA4OTEzNjM3Myw5NTk3
-MjI1OTgsLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5NzcwODI5MD
-gsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMjE0
-MTQ0MTkwNl19
--->

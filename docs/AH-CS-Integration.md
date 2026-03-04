@@ -1,5 +1,6 @@
 # Integration
 
+
 ## Notes
 
 All the code examples use Python.
@@ -8,6 +9,7 @@ These notes are focused on Advanced Higher Computing Science so some terms are u
 
 
 ## Database
+
 
 ### Connect to Database
 
