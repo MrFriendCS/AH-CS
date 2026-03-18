@@ -99,3 +99,41 @@ newPupil= Pupil("Emma", 17, "S5")
 # Display their age
 print(newPupil.getAge())
 ```
+
+
+## Standard Algorithms
+
+### Bubble Sort
+
+``` python
+array = [7, 2, 6, 5, 4, 3, 1]
+
+# Get number of elements
+n = len(array)
+
+# Turn sort on
+sort = True
+
+# Sort if needed
+while sort == True:
+    
+    # Turn sort off
+    sort = False
+    
+    # Loop from start of array
+    for index in range(n - 1):
+        
+        # Compare current element with next element
+        if array[index] > array[index + 1]:
+            
+            # Swap values
+            temp = array[index]
+            array[index]  = array[index + 1]
+            array[index + 1] = temp
+            
+            # Sorting still needed
+            sort = True
+    
+    # Reduce the number elements to be checked
+    n = n - 1
+```
