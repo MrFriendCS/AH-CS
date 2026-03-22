@@ -196,7 +196,7 @@ while not found and (start <= end):
         # Update result
         found = True
     
-    # Check if 
+    # Check if target value is greater than current value
     elif array[mid] > target:
         
         # Update end of array to be searched
