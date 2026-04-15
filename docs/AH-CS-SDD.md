@@ -30,7 +30,7 @@ It is called automatically when an object is created.
 It is normal for `self` to be the first parameter of any method.  `self` refers to the current object.
 
 Properties and methods are kept private by using a double underscore (`__`) before the name of a property or method.
-If a property or methos is private, it can only be called from within the object.
+If a property or method is private, it can only be accessed from within the object.
 Getter and setter methods will need to be provided to access or update the value of a private property.
 
 ``` python
