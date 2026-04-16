@@ -102,6 +102,76 @@ print(newPupil.getAge())
 ```
 
 
+## Linked List
+
+### Single Linked List
+
+``` python
+class Node:
+    """Declare a class to define a linked list node."""
+
+    def __init__(self, data=None, pointer=None):
+        """Object constructor method.  Automatically called when an object is created."""
+
+        # Class properties - Private
+        self.__data = data
+        self.__pointer = pointer
+    
+    
+    def __str__(self):
+        """Overwrite print()."""
+        return f"Data: {self.__data}"
+    
+    
+    # Class methods
+
+    def getData(self):
+        """Getter method for data."""
+        return self.__data
+
+    def setData(self, data=None):
+        """Setter method for data."""
+        self.__data = data
+    
+    def getPointer(self):
+        """Getter method for pointer to next node."""
+        return self.__pointer
+
+    def setPointer(self, pointer=None):
+        """Setter method for pointer to next node."""
+        self.__pointer = pointer
+
+
+def traverseLinkedList(head):
+    """Traverse a linked list from head to tail."""
+    
+    # Loop while linked to next node
+    while head.getPointer() != None:
+        
+        # Display current node data
+        print(head.getData())
+        
+        # Move to next node
+        head = head.getPointer()
+    
+    # Display tail (last) node data
+    print(head.getData())
+
+
+# Create nodes
+node1 = Node(12)
+node2 = Node(3)
+node3 = Node(19)
+
+
+# Link nodes
+node1.setPointer(node2)
+node2.setPointer(node3)
+
+# Traverse nodes
+traverseLinkedList(node1)
+```
+
 ## Standard Algorithms
 
 
