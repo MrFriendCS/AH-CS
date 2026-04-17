@@ -107,16 +107,15 @@ print(newPupil.getAge())
 ### Single Linked List
 
 ``` python
-class Node:
-    """Declare a class to define a linked list node."""
+class NodeSingle:
+    """Declare a class to define a singly linked list node."""
 
-    def __init__(self, data=None, pointer=None):
+    def __init__(self, data=None, nextPointer=None):
         """Object constructor method.  Automatically called when an object is created."""
 
         # Class properties - Private
         self.__data = data
-        self.__pointer = pointer
-    
+        self.__nextPointer = nextPointer
     
     def __str__(self):
         """Overwrite print()."""
@@ -133,26 +132,26 @@ class Node:
         """Setter method for data."""
         self.__data = data
     
-    def getPointer(self):
+    def getNext(self):
         """Getter method for pointer to next node."""
-        return self.__pointer
+        return self.__nextPointer
 
-    def setPointer(self, pointer=None):
+    def setNext(self, nextPointer=None):
         """Setter method for pointer to next node."""
-        self.__pointer = pointer
+        self.__nextPointer = nextPointer
 
 
 def traverseLinkedList(head):
-    """Traverse a linked list from head to tail."""
+    """Traverse a singly linked list from head to tail."""
     
     # Loop while linked to next node
-    while head.getPointer() != None:
+    while head.getNext() != None:
         
         # Display current node data
         print(head.getData())
         
         # Move to next node
-        head = head.getPointer()
+        head = head.getNext()
     
     # Display tail (last) node data
     print(head.getData())
@@ -163,10 +162,9 @@ node1 = Node(12)
 node2 = Node(3)
 node3 = Node(19)
 
-
 # Link nodes
-node1.setPointer(node2)
-node2.setPointer(node3)
+node1.setNext(node2)
+node2.setNext(node3)
 
 # Traverse nodes
 traverseLinkedList(node1)
