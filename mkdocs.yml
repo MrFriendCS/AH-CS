@@ -8,7 +8,10 @@ navigation_depth: 4
 nav:
     - Home: index.md
     - SDD:
-    - SDD: AH-CS-SDD.md
+        - OOP: AH-CS-SDD-OOP.md
+        - Standard algorithms: AH-CS-SDD-Standard-Algorithms.md
+        - 2D Array: AH-CS-SDD-2D-Array.md
+        - Linked List: AH-CS-SDD-Linked-List.md
     - DDD: AH-CS-DDD.md
     - Integration: AH-CS-Integration.md
     - WDD: AH-CS-WDD.md
