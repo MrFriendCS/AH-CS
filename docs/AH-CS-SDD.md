@@ -209,6 +209,30 @@ while not found and (start <= end):
         start = mid + 1
 ```
 
+## 2D Array
+
+A 2D array is an array of arrays.
+
+``` python
+# Define size of 2D array
+rows = 3
+cols = 5
+
+# Create 2D array
+array2d = [[0 for width in range(cols)] for height in range(rows)]
+
+# Change a single element
+array2d [1][2] = 5
+
+# Display 2D array
+print(array2d)
+
+# Dsiplay 2D array, row by row
+for row in array2d:
+    
+    print(row)
+```
+
 
 ## Linked List
 
