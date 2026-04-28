@@ -29,7 +29,7 @@ conn.close()
 # Create a table in the database.
 
 # SQL to create a table - if it does not exist
-newTable = """
+newTable = '''
 CREATE TABLE IF NOT EXISTS Manufacturer (
     manufacturerID INT NOT NULL,
     name VARCHAR(20),
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS Manufacturer (
         CHECK (LENGTH(telephone) = 11),
     PRIMARY KEY (manufacturerID)
 );
-"""
+'''
 
 # Create the new table
 cursor.execute(newTable)
@@ -48,13 +48,13 @@ cursor.execute(newTable)
 ## Insert Data
 
 ``` python
-newData = """
+newData = '''
 INSERT INTO Manufacturer
     VALUES
-        (441,"Craft Supplies","Wishaw Industrial Estate","01415437212"),
-        (531,"Metal and Wood","Tyne Way Newcastle","01542123485"),
-        (627,"Tool Makers","231 London Walk Bristol","01347234987");
-"""
+        (441,'Craft Supplies','Wishaw Industrial Estate','01415437212'),
+        (531,'Metal and Wood','Tyne Way Newcastle','01542123485'),
+        (627,'Tool Makers','231 London Walk Bristol','01347234987');
+'''
 
 # Insert new data
 cursor.execute(newData)
@@ -68,10 +68,10 @@ conn.commit()
 
 ``` python
 # SQL to delete data
-deleteData = """
+deleteData = '''
 DELETE FROM Manufacturer
     WHERE name LIKE "%and%";
-"""
+'''
 
 # Run query to delete the data
 cursor.execute(deleteData)
@@ -81,10 +81,10 @@ cursor.execute(deleteData)
 ## Query the Database
 
 ``` python
-query = """
+query = '''
 SELECT *
     FROM Manufacturer;
-"""
+'''
 
 # Run query and store result
 result = cursor.execute(query)
@@ -94,4 +94,17 @@ for row in result:
     
     # Display row
     print(row)
+```
+
+
+## Drop a Table
+
+``` python
+# SQL to drop a table - if it exists
+dropTable = '''
+DROP TABLE IF EXISTS Manufacturer;
+'''
+
+# Run query to delete the data
+cursor.execute(dropTable)
 ```
