@@ -1,6 +1,7 @@
-# Home
+# Advanced Higher Computing Science
 
-* [Software](AH-CS-SDD.md)
-* [Databases](AH-CS-DDD.md)
-* [Integration](AH-CS-Integration.md)
-* [Web](AH-CS-WDD.md)
+## Notes
+
+All the code examples use Python or SQLite.
+
+These notes are focused on Advanced Higher Computing Science so some terms might be used differently.

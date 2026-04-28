@@ -1,14 +1,4 @@
-# Software Design and Development
-
-
-## Notes
-
-All the code examples use Python.
-
-These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
-
-
-## 2D Array
+# 2D Array
 
 A 2D array is an array of arrays.
 

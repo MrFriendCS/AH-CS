@@ -1,17 +1,7 @@
 # Integration
 
 
-## Notes
-
-All the code examples use Python.
-
-These notes are focused on Advanced Higher Computing Science so some terms are used differently.
-
-
-## Database
-
-
-### Connect to Database
+## Connect to Database
 
 ``` python
 # Get extra code
@@ -33,7 +23,7 @@ conn.close()
 ```
 
 
-### Create a Table
+## Create a Table
 
 ```python
 # Create a table in the database.
@@ -55,7 +45,7 @@ cursor.execute(newTable)
 ```
 
 
-### Insert Data
+## Insert Data
 
 ``` python
 newData = """
@@ -74,7 +64,7 @@ conn.commit()
 ```
 
 
-### Delete Data
+## Delete Data
 
 ``` python
 # SQL to delete data
@@ -88,7 +78,7 @@ cursor.execute(deleteData)
 ```
 
 
-### Query the Database
+## Query the Database
 
 ``` python
 query = """

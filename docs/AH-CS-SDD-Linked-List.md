@@ -1,16 +1,5 @@
-# Software Design and Development
+# Linked List (Single)
 
-
-## Notes
-
-All the code examples use Python.
-
-These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
-
-
-## Linked List
-
-### Single Linked List
 
 ``` python
 class NodeSingle:

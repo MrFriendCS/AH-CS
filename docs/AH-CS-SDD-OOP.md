@@ -1,14 +1,4 @@
-# Software Design and Development
-
-
-## Notes
-
-All the code examples use Python.
-
-These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
-
-
-## Object-Orientated Programming (OOP)
+# Object-Orientated Programming (OOP)
 
 Classes create objects.  Objects have properties and methods.
 
@@ -19,7 +9,7 @@ Objects have properties and methods:
 * Method - something the object can do (a sub-program: behaviour)
 
 
-### Declaration
+## Declaration
 
 The `class` keyword is used to declare the _blueprint_ for new objects.
 New classes are named using `CapitalisedWords`.
@@ -64,7 +54,7 @@ print(newPerson.getAge())
 ```
 
 
-### Inheritance
+## Inheritance
 
 New classes can be declared that inherit the properties and methods of an existing class. 
 The new class can be extend with additional properties and / or methods.

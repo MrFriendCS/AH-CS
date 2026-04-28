@@ -1,17 +1,7 @@
-# Software Design and Development
+# Standard Algorithms
 
 
-## Notes
-
-All the code examples use Python.
-
-These notes are focused on Advanced Higher Computing Science so some terms may be used differently.
-
-
-## Standard Algorithms
-
-
-### Bubble Sort
+## Bubble Sort
 
 ``` python
 array = [7, 2, 6, 5, 4, 3, 1]
@@ -47,7 +37,7 @@ while sort == True:
 ```
 
 
-### Insertion Sort
+## Insertion Sort
 
 ``` Python
 array = [7, 2, 4, 5, 3, 6, 1]
@@ -78,7 +68,7 @@ for index in range(1, len(array)):
 ```
 
 
-### Binary Search
+## Binary Search
 
 ``` Python
 array = [1, 2, 3, 4, 5, 6, 7]
