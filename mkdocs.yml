@@ -1,6 +1,14 @@
 site_name: Advanced Higher CS
 
 theme:
-  name: readthedocs
+    name: readthedocs
 
 navigation_depth: 4
+
+nav:
+    - Home: index.md
+    - SDD:
+    - SDD: AH-CS-SDD.md
+    - DDD: AH-CS-DDD.md
+    - Integration: AH-CS-Integration.md
+    - WDD: AH-CS-WDD.md
