@@ -1,0 +1,16 @@
+# Software
+
+## f Strings
+
+``` python
+pi = 3.14159265359
+
+print(f'pi = {pi}')
+
+print(f'pi = {pi:.4f} (4 dp)')
+
+print(f'pi = {pi:.4g} (4 sf)')
+
+print(f'Enjoy a raspberry pie for only £{pi*2:.2f}!')
+
+```
