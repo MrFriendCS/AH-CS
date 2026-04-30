@@ -1,6 +1,5 @@
 # Advanced Higher Computing Science
 
-## Notes
 
 All the code examples use Python or SQLite.
 
