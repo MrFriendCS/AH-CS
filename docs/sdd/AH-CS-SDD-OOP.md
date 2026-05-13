@@ -21,72 +21,90 @@ It is normal for `self` to be the first parameter of any method.  `self` refers 
 
 Properties and methods are kept private by using a double underscore (`__`) before the name of a property or method.
 If a property or method is private, it can only be accessed from within the object.
-Getter and setter methods will need to be provided to access or update the value of a private property.
+This is know as ___encapsulation___.
+Getter and setter methods will need to be provided to access or change the value of a private property.
 
 ``` python
 class Person:
-    """Declare a class to define a person."""
+    '''Declare a class to define a person.'''
 
-    def __init__(self, name="", age=0):
-        """Object constructor method.  Automatically called when an object is created."""
+    def __init__(self, name='', age=0):
+        '''Object constructor method.  Automatically called when an object is created.'''
         
         # Class properties - Private
         self.__name = name
         self.__age = age
 
     def getAge(self):
-        """Getter method for age."""
+        '''Getter method for age.'''
         return self.__age
 
     def setAge(self, age=0):
-        """Setter method for age."""
+        '''Setter method for age.'''
         self.__age = age
+        
+    def introduce(self):
+        '''Method to display person information.'''
+        print(f'Hi, I\'m {self.__name}.  I\'m {self.__age} years old.')
 ```
 
 An example of instantiation, creating an object, is shown below:
 
 ``` python
 # Create a new object
-newPerson = Person("Tom", 18)
+newPerson = Person('Tom', 25)
 
 # Display their age
 print(newPerson.getAge())
+
+# Introduce the person
+newPerson.introduce()
 ```
 
 
-## Inheritance
+## Inheritance and Overriding
 
 New classes can be declared that inherit the properties and methods of an existing class. 
 The new class can be extend with additional properties and / or methods.
 
+A method can be overridden with a new method of the same name.
+
 ``` python
 class Pupil(Person):
-    """Declare a class to define a pupil.  Inherits from the Person class."""
+    '''Declare a class to define a pupil.  Inherits from the Person class.'''
 
-    def __init__(self, name="", age=0, yearGroup="P1"):
-        """Object constructor method.  Automatically called when an object is created."""
+    def __init__(self, name='', age=0, yearGroup='P1'):
+        '''Object constructor method.  Automatically called when an object is created.'''
         
         # Use super class initilisation
         super().__init__(name, age)
         
-        # Class property - Private
+        # Sub-class property - Private
         self.__yearGroup = yearGroup
 
     def getYearGroup(self):
-        """Getter method for yearGroup."""
+        '''Getter method for yearGroup.'''
         return self.__yearGroup
 
-    def setYearGroup(self, yearGroup="P1"):
-        """Setter method for yearGroup."""
+    def setYearGroup(self, yearGroup='P1'):
+        '''Setter method for yearGroup.'''
         self.__yearGroup = yearGroup
+        
+    def introduce(self):
+        '''Method to display pupil information.'''
+        print(f'Hi, I\'m {self.getAge()}.  I\'m {self.getName()} ' \
+              + f'years old and in {self.__yearGroup}.')
 ```
 
 An example is shown below:
 
 ``` python
 # Create a new object
-newPupil= Pupil("Emma", 17, "S5")
+newPupil= Pupil('Emma", 17, 'S5')
 
 # Display their age
 print(newPupil.getAge())
+
+# Introduce the pupil
+newPupil.introduce()
 ```

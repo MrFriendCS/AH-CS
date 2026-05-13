@@ -1,5 +1,15 @@
 # Software
 
+## Long lines of code
+
+Use a backslash (`\`) to break up long lines of code.
+
+``` python
+print('Long lines of code ' \
+      + 'can be broken up.')
+```
+
+
 ## f Strings
 
 ``` python
