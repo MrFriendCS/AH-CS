@@ -28,7 +28,7 @@ Getter and setter methods will need to be provided to access or change the value
 class Person:
     '''Declare a class to define a person.'''
 
-    def __init__(self, name='', age=0):
+    def __init__(self, name='TBC', age=0):
         '''Object constructor method.  Automatically called when an object is created.'''
         
         # Class properties - Private
@@ -42,6 +42,10 @@ class Person:
     def setAge(self, age=0):
         '''Setter method for age.'''
         self.__age = age
+    
+    def getName(self):
+        '''Getter method for name.'''
+        return self.__name
         
     def introduce(self):
         '''Method to display person information.'''
@@ -56,9 +60,6 @@ newPerson = Person('Tom', 25)
 
 # Display their age
 print(newPerson.getAge())
-
-# Introduce the person
-newPerson.introduce()
 ```
 
 
@@ -73,7 +74,7 @@ A method can be overridden with a new method of the same name.
 class Pupil(Person):
     '''Declare a class to define a pupil.  Inherits from the Person class.'''
 
-    def __init__(self, name='', age=0, yearGroup='P1'):
+    def __init__(self, name='TBC', age=5, yearGroup='P1'):
         '''Object constructor method.  Automatically called when an object is created.'''
         
         # Use super class initilisation
@@ -91,8 +92,8 @@ class Pupil(Person):
         self.__yearGroup = yearGroup
         
     def introduce(self):
-        '''Method to display pupil information.'''
-        print(f'Hi, I\'m {self.getAge()}.  I\'m {self.getName()} ' \
+        '''Method to display pupil information.  Overwrites superclass method.'''
+        print(f'Hi, I\'m {self.getName()}.  I\'m {self.getAge()} ' \
               + f'years old and in {self.__yearGroup}.')
 ```
 
@@ -100,10 +101,17 @@ An example is shown below:
 
 ``` python
 # Create a new object
-newPupil= Pupil('Emma", 17, 'S5')
+newPupil= Pupil('Emma', 17, 'S5')
 
 # Display their age
 print(newPupil.getAge())
+'''
+
+Example of overiding is shown below:
+
+''' python
+# Introduce the person
+newPerson.introduce()
 
 # Introduce the pupil
 newPupil.introduce()
