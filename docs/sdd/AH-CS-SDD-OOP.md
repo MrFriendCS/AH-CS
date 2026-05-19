@@ -29,7 +29,8 @@ class Person:
     '''Declare a class to define a person.'''
 
     def __init__(self, name='TBC', age=0):
-        '''Object constructor method.  Automatically called when an object is created.'''
+        '''Object constructor method. ''' \
+        + '''Automatically called when an object is created.'''
         
         # Class properties - Private
         self.__name = name
@@ -103,16 +104,58 @@ An example is shown below:
 # Create a new object
 newPupil= Pupil('Emma', 17, 'S5')
 
-# Display their age
+# Display their age - Encapulation!
 print(newPupil.getAge())
-'''
+```
 
 Example of overiding is shown below:
 
-''' python
+``` python
 # Introduce the person
 newPerson.introduce()
 
 # Introduce the pupil
 newPupil.introduce()
+```
+
+
+## Array of objects
+
+The data to create an array of objects could be read from a file.
+
+``` python
+# Data for the objects
+people = ['Alan,24','Beth,23','Carl,22','Dina,21']
+```
+
+Create an empty array.
+
+```
+# Empty array
+arrayOfObjects = []
+```
+
+Loop for each object, create an object and append to the empty array
+
+``` python
+for index in range(len(people)):
+    
+    # Split data at comma
+    data = people[index].split(',')
+    
+    # Extract values
+    name = data[0]
+    age = int(data[1])
+    
+    # Create new object and append to array
+    arrayOfObjects.append(Person(name, age))
+```
+
+Loop for each object in array.
+
+```
+for index in range(len(arrayOfObjects)):
+    
+    # Display info about the current object.
+    arrayOfObjects[index].info()
 ```
