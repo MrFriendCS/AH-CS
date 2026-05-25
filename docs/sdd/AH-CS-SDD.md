@@ -24,3 +24,18 @@ print(f'pi = {pi:.4g} (4 sf)')
 print(f'Enjoy a raspberry pie for only £{pi*2:.2f}!')
 
 ```
+
+
+## Combined Operators
+
+Arithmetic operators can be combined with the assignment operator.
+
+| Operator | Example | Meaning |
+| :------: | :-----: | :-----: |
+| +=       | x += 3  | x = x + 3 |
+| -=       | x -= 3  | x = x - 3 |
+| *=       | x *= 3  | x = x * 3 |
+| /=       | x /= 3  | x = x / 3 |
+| %=       | x %= 3  | x = x % 3 |
+| //=      | x //= 3 | x = x // 3 |
+| **=      | x **= 3 | x = x ** 3 |

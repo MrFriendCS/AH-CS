@@ -3,9 +3,9 @@
 Classes create objects.  Objects have properties and methods.
 
 An object is a way of representing _something_ in software, e.g. a person or a vehicle.
-Objects have properties and methods:
+Objects have instance variables, also known as properties, and methods:
 
-* Property - something about the object (a variable: data)
+* Instance variable - something about the object (property: data)
 * Method - something the object can do (a sub-program: behaviour)
 
 
@@ -22,11 +22,11 @@ It is normal for `self` to be the first parameter of any method.  `self` refers 
 Properties and methods are kept private by using a double underscore (`__`) before the name of a property or method.
 If a property or method is private, it can only be accessed from within the object.
 This is know as ___encapsulation___.
-Getter and setter methods will need to be provided to access or change the value of a private property.
+Accessor (getter) and mutator (setter) methods will need to be provided to access or change the value of a private property.
 
 ``` python
 class Person:
-    '''Declare a class to define a person.'''
+    '''A class to define a person.'''
 
     def __init__(self, name='TBC', age=0):
         '''Object constructor method. ''' \
@@ -36,21 +36,22 @@ class Person:
         self.__name = name
         self.__age = age
 
-    def getAge(self):
+    def getAge(self) -> int:
         '''Getter method for age.'''
         return self.__age
 
-    def setAge(self, age=0):
+    def setAge(self, age=0) -> None:
         '''Setter method for age.'''
         self.__age = age
     
-    def getName(self):
+    def getName(self) -> str:
         '''Getter method for name.'''
         return self.__name
         
-    def introduce(self):
-        '''Method to display person information.'''
-        print(f'Hi, I\'m {self.__name}.  I\'m {self.__age} years old.')
+    def info(self) -> tuple:
+        '''Method to access person information.'''
+        
+        return self.__name, self.__age
 ```
 
 An example of instantiation, creating an object, is shown below:
@@ -73,10 +74,11 @@ A method can be overridden with a new method of the same name.
 
 ``` python
 class Pupil(Person):
-    '''Declare a class to define a pupil.  Inherits from the Person class.'''
+    '''A class to define a pupil.  Inherits from the Person class.'''
 
     def __init__(self, name='TBC', age=5, yearGroup='P1'):
-        '''Object constructor method.  Automatically called when an object is created.'''
+        '''Object constructor method. ''' \
+        '''Automatically called when an object is created.'''
         
         # Use super class initilisation
         super().__init__(name, age)
@@ -84,25 +86,26 @@ class Pupil(Person):
         # Sub-class property - Private
         self.__yearGroup = yearGroup
 
-    def getYearGroup(self):
+    def getYearGroup(self) -> str:
         '''Getter method for yearGroup.'''
         return self.__yearGroup
 
-    def setYearGroup(self, yearGroup='P1'):
+    def setYearGroup(self, yearGroup='P1') -> None:
         '''Setter method for yearGroup.'''
         self.__yearGroup = yearGroup
         
-    def introduce(self):
-        '''Method to display pupil information.  Overwrites superclass method.'''
-        print(f'Hi, I\'m {self.getName()}.  I\'m {self.getAge()} ' \
-              + f'years old and in {self.__yearGroup}.')
+    def info(self) -> tuple:
+        '''Method to access pupil information.''' \
+        + '''Overwrites superclass method.'''
+        
+        return self.getName(), self.getAge(), self.__yearGroup
 ```
 
 An example is shown below:
 
 ``` python
 # Create a new object
-newPupil= Pupil('Emma', 17, 'S5')
+newPupil = Pupil('Emma', 17, 'S5')
 
 # Display their age - Encapulation!
 print(newPupil.getAge())
@@ -112,10 +115,12 @@ Example of overiding is shown below:
 
 ``` python
 # Introduce the person
-newPerson.introduce()
+details = newPerson.info()
+print(f'Hi, I\'m {details[0]}.  I\'m {details[1]} years old.')
 
 # Introduce the pupil
-newPupil.introduce()
+details = newPupil.info()
+print(f'Hi, I\'m {details[0]}.  I\'m {details[1]} years old and in {details[2]}.')
 ```
 
 
@@ -138,6 +143,7 @@ arrayOfObjects = []
 Loop for each object, create an object and append to the empty array
 
 ``` python
+# Populate array
 for index in range(len(people)):
     
     # Split data at comma
@@ -154,8 +160,12 @@ for index in range(len(people)):
 Loop for each object in array.
 
 ```
+# Loop for each object
 for index in range(len(arrayOfObjects)):
     
-    # Display info about the current object.
-    arrayOfObjects[index].info()
+    # Get info about the current object
+    details = arrayOfObjects[index].info()
+    
+    # Display info about the current object
+    print(f'Hi, I\'m {details[0]}.  I\'m {details[1]} years old.')
 ```
