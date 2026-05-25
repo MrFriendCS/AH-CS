@@ -30,8 +30,11 @@ print(randint(1, 6))
 
 ## Assert
 
+The keyword `assert` is used for testing.
+If the assertion is incorrect, an exception is thrown.
+
 ``` python
-# Will pass
+# Will not throw an exception
 assert 1 == 1
 
 # Will throw an exception
@@ -41,18 +44,24 @@ assert 1 == 2
 
 ## Try, Except
 
-``` python
-try:
-    # Will pass
-    assert 1 == 1
-    print('Pass: 1==1')
-except:
-    print('Fail: 1==1')
+The code in keyword `try` is run.
+If an exeption is thrown, the code in keyword `except` is then run.
 
+``` python
+# Will not throw an exception
 try:
-    # Will throw and exception
-    assert 1 == 2
-    print('Pass: 1==2')
+    assert 1 == 1
+    print('Pass: 1 == 1')
+
 except:
-    print('Fail: 1==2')
+    print('Fail: 1 == 1')
+
+
+# Will throw an exception
+try:
+    assert 1 == 2
+    print('Pass: 1 == 2')
+
+except:
+    print('Fail: 1 == 2')
 ```
