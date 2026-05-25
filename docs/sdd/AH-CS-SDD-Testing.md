@@ -42,7 +42,7 @@ assert 1 == 2
 ```
 
 
-## Try, Except
+### Try, Except
 
 The code in keyword `try` is run.
 If an exeption is thrown, the code in keyword `except` is then run.
