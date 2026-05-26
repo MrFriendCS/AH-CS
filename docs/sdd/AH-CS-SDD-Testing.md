@@ -44,8 +44,8 @@ assert 1 == 2
 
 ### Try, Except
 
-The code in keyword `try` is run.
-If an exeption is thrown, the code in keyword `except` is then run.
+Initially, the code in `try` is run.
+If an exception is thrown, the code in `except` is then run.
 
 ``` python
 # Will not throw an exception
