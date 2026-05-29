@@ -2,11 +2,23 @@
 
 ## Long lines of code
 
-Use a backslash (`\`) to break up long lines of code.
+Long lines of code that have parentheses (round brackets) can be split over multiple lines.
 
 ``` python
-print('Long lines of code ' \
-      + 'can be broken up.')
+print(1 + 2 +
+      3 + 4)
+      
+print('Long lines of code '
+      'can be broken up.')
+```
+
+Long lines of code without parentheses can use a backslash (`\`) to split them.
+
+``` python
+answer = 1 + 2 \
+         + 3 + 4
+      
+print(answer)
 ```
 
 
