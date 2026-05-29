@@ -8,16 +8,16 @@ rows = 3
 cols = 5
 
 # Create 2D array
-array2d = [[0 for width in range(cols)] for height in range(rows)]
+two_d_array = [[0 for width in range(cols)] for height in range(rows)]
 
 # Change a single element
-array2d [1][2] = 5
+two_d_array [1][2] = 5
 
 # Display 2D array
-print(array2d)
+print(two_d_array)
 
 # Dsiplay 2D array, row by row
-for row in array2d:
+for row in two_d_array:
     
     print(row)
 ```

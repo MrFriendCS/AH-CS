@@ -42,20 +42,20 @@ while sort == True:
 ``` Python
 array = [7, 2, 4, 5, 3, 6, 1]
 
-currentValue = 0
+current_value = 0
 position = 0
 
 # Loop over array
 for index in range(1, len(array)):
     
     # Get current value from array
-    currentValue = array[index]
+    current_value = array[index]
     
     # Get current position
     position = index
     
     # Loop if current value is larger then value to the left
-    while (position > 0) and (currentValue < array[position-1]):
+    while (position > 0) and (current_value < array[position-1]):
         
         # Move value left
         array[position] = array[position-1]
@@ -64,7 +64,7 @@ for index in range(1, len(array)):
         position = position - 1
     
     # Set current position to the original value
-    array[position] = currentValue
+    array[position] = current_value
 ```
 
 

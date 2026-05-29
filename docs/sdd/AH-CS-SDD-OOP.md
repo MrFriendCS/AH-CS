@@ -36,15 +36,15 @@ class Person:
         self.__name = name
         self.__age = age
 
-    def getAge(self) -> int:
+    def get_age(self) -> int:
         '''Getter method for age.'''
         return self.__age
 
-    def setAge(self, age=0) -> None:
+    def set_age(self, age=0) -> None:
         '''Setter method for age.'''
         self.__age = age
     
-    def getName(self) -> str:
+    def get_name(self) -> str:
         '''Getter method for name.'''
         return self.__name
         
@@ -58,10 +58,10 @@ An example of instantiation, creating an object, is shown below:
 
 ``` python
 # Create a new object
-newPerson = Person('Tom', 25)
+new_person = Person('Tom', 25)
 
 # Display their age
-print(newPerson.getAge())
+print(new_person.get_age())
 ```
 
 
@@ -76,50 +76,50 @@ A method can be overridden with a new method of the same name.
 class Pupil(Person):
     '''A class to define a pupil.  Inherits from the Person class.'''
 
-    def __init__(self, name='TBC', age=5, yearGroup='P1'):
+    def __init__(self, name='TBC', age=5, year_group='P1'):
         '''Object constructor method. ''' \
         '''Automatically called when an object is created.'''
         
-        # Use super class initilisation
+        # Use superclass initilisation
         super().__init__(name, age)
         
         # Sub-class property - Private
-        self.__yearGroup = yearGroup
+        self.__year_group = year_group
 
-    def getYearGroup(self) -> str:
-        '''Getter method for yearGroup.'''
-        return self.__yearGroup
+    def get_year_group(self) -> str:
+        '''Getter method for year_group.'''
+        return self.__year_group
 
-    def setYearGroup(self, yearGroup='P1') -> None:
-        '''Setter method for yearGroup.'''
-        self.__yearGroup = yearGroup
+    def set_year_group(self, year_group='P1') -> None:
+        '''Setter method for year_group.'''
+        self.__year_group = year_group
         
     def info(self) -> tuple:
         '''Method to access pupil information.''' \
         + '''Overwrites superclass method.'''
         
-        return self.getName(), self.getAge(), self.__yearGroup
+        return self.get_name(), self.get_age(), self.__year_group
 ```
 
 An example is shown below:
 
 ``` python
 # Create a new object
-newPupil = Pupil('Emma', 17, 'S5')
+new_pupil = Pupil('Emma', 17, 'S5')
 
 # Display their age - Encapulation!
-print(newPupil.getAge())
+print(new_pupil.get_age())
 ```
 
 Example of overiding is shown below:
 
 ``` python
 # Introduce the person
-details = newPerson.info()
+details = new_person.info()
 print(f'Hi, I\'m {details[0]}.  I\'m {details[1]} years old.')
 
 # Introduce the pupil
-details = newPupil.info()
+details = new_pupil.info()
 print(f'Hi, I\'m {details[0]}.  I\'m {details[1]} years old and in {details[2]}.')
 ```
 
@@ -137,7 +137,7 @@ Create an empty array.
 
 ```
 # Empty array
-arrayOfObjects = []
+array_of_objects = []
 ```
 
 Loop for each object, create an object and append to the empty array
@@ -154,17 +154,17 @@ for index in range(len(people)):
     age = int(data[1])
     
     # Create new object and append to array
-    arrayOfObjects.append(Person(name, age))
+    array_of_objects.append(Person(name, age))
 ```
 
 Loop for each object in array.
 
 ```
 # Loop for each object
-for index in range(len(arrayOfObjects)):
+for index in range(len(array_of_objects)):
     
     # Get info about the current object
-    details = arrayOfObjects[index].info()
+    details = array_of_objects[index].info()
     
     # Display info about the current object
     print(f'Hi, I\'m {details[0]}.  I\'m {details[1]} years old.')
