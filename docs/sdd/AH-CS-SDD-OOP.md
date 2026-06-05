@@ -26,30 +26,30 @@ Accessor (getter) and mutator (setter) methods will need to be provided to acces
 
 ``` python
 class Person:
-    '''A class to define a person.'''
+    """A class to define a person."""
 
-    def __init__(self, name='TBC', age=0):
-        '''Object constructor method. ''' \
-        + '''Automatically called when an object is created.'''
+    def __init__(self, name: str='TBC', age: int=0):
+        """Object constructor method. """ \
+        + """Automatically called when an object is created."""
         
         # Class properties - Private
         self.__name = name
         self.__age = age
 
     def get_age(self) -> int:
-        '''Getter method for age.'''
+        """Getter method for age."""
         return self.__age
 
-    def set_age(self, age=0) -> None:
-        '''Setter method for age.'''
+    def set_age(self, age: int=0) -> None:
+        """Setter method for age."""
         self.__age = age
     
     def get_name(self) -> str:
-        '''Getter method for name.'''
+        """Getter method for name."""
         return self.__name
         
     def info(self) -> tuple:
-        '''Method to access person information.'''
+        """Method to access person information."""
         
         return self.__name, self.__age
 ```
@@ -74,11 +74,11 @@ A method can be overridden with a new method of the same name.
 
 ``` python
 class Pupil(Person):
-    '''A class to define a pupil.  Inherits from the Person class.'''
+    """A class to define a pupil.  Inherits from the Person class."""
 
-    def __init__(self, name='TBC', age=5, year_group='P1'):
-        '''Object constructor method. ''' \
-        '''Automatically called when an object is created.'''
+    def __init__(self, name: str='TBC', age: int=5, year_group: str='P1'):
+        """Object constructor method. """ \
+        """Automatically called when an object is created."""
         
         # Use superclass initilisation
         super().__init__(name, age)
@@ -87,16 +87,16 @@ class Pupil(Person):
         self.__year_group = year_group
 
     def get_year_group(self) -> str:
-        '''Getter method for year_group.'''
+        """Getter method for year_group."""
         return self.__year_group
 
-    def set_year_group(self, year_group='P1') -> None:
-        '''Setter method for year_group.'''
+    def set_year_group(self, year_group: str='P1') -> None:
+        """Setter method for year_group."""
         self.__year_group = year_group
         
     def info(self) -> tuple:
-        '''Method to access pupil information.''' \
-        + '''Overwrites superclass method.'''
+        """Method to access pupil information.""" \
+        + """Overwrites superclass method."""
         
         return self.get_name(), self.get_age(), self.__year_group
 ```
