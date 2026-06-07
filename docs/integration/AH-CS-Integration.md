@@ -29,7 +29,7 @@ conn.close()
 # Create a table in the database.
 
 # SQL to create a table - if it does not exist
-newTable = '''
+new_table = '''
 CREATE TABLE IF NOT EXISTS Manufacturer (
     manufacturerID INT NOT NULL,
     name VARCHAR(20),
@@ -41,14 +41,14 @@ CREATE TABLE IF NOT EXISTS Manufacturer (
 '''
 
 # Create the new table
-cursor.execute(newTable)
+cursor.execute(new_table)
 ```
 
 
 ## Insert Data
 
 ``` python
-newData = '''
+new_data = '''
 INSERT INTO Manufacturer
     VALUES
         (441,'Craft Supplies','Wishaw Industrial Estate','01415437212'),
@@ -57,7 +57,7 @@ INSERT INTO Manufacturer
 '''
 
 # Insert new data
-cursor.execute(newData)
+cursor.execute(new_data)
 
 # Commit the new data
 conn.commit()
@@ -68,13 +68,13 @@ conn.commit()
 
 ``` python
 # SQL to delete data
-deleteData = '''
+delete_data = '''
 DELETE FROM Manufacturer
     WHERE name LIKE "%and%";
 '''
 
 # Run query to delete the data
-cursor.execute(deleteData)
+cursor.execute(delete_data)
 ```
 
 
@@ -101,10 +101,10 @@ for row in result:
 
 ``` python
 # SQL to drop a table - if it exists
-dropTable = '''
+drop_table = '''
 DROP TABLE IF EXISTS Manufacturer;
 '''
 
 # Run query to delete the data
-cursor.execute(dropTable)
+cursor.execute(drop_table)
 ```
