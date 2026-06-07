@@ -50,7 +50,7 @@ __Note__: an operator should be at the start of the new line.
 
 ## String Formatting
 
-An f-string can be used instead of concatenating a string with a non-string.
+An f-string can be used instead of concatenating variables.
 
 ``` python
 pi = 3.14159265359
