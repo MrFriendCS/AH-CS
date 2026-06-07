@@ -1,12 +1,31 @@
 # Software
 
+
+## Style Conventions
+
+
+### Naming
+
+* Class: ThisIsAClass
+* Property: this_is_a_property
+* Method: this_is_a_method
+* Function: this_is_a_function
+
+
+### Blank lines
+
+* Class: two lines before and after
+* Function: two lines before and after
+* Method: one line before and after
+
+
 ## Long lines of code
 
 Long lines of code that have parentheses (round brackets) can be split over multiple lines.
 
 ``` python
-print(1 + 2 +
-      3 + 4)
+print(1 + 2
+      + 3 + 4)
       
 print('Long lines of code '
       'can be broken up.')
@@ -21,18 +40,30 @@ answer = 1 + 2 \
 print(answer)
 ```
 
+__Note__: an operator should be at the start of the new line.
 
-## f Strings
+
+## String Formatting
+
+An f-string can be used instead of concatenating a string with a non-string.
 
 ``` python
 pi = 3.14159265359
 
 print(f'pi = {pi}')
+```
 
+An f-string can be formatted.
+
+``` python
 print(f'pi = {pi:.4f} (4 dp)')
 
 print(f'pi = {pi:.4g} (4 sf)')
+```
 
+An f-string can include a calculation.
+
+``` python
 print(f'Enjoy a raspberry pie for only £{pi*2:.2f}!')
 
 ```
@@ -75,4 +106,13 @@ To import individual functions, records, and classes from a module use `from` _m
 from random import randint
 
 print(randint(1, 6))
+```
+
+To import multiple functions, records, and classes, they can be named individualy.
+
+``` python
+from random import randint, sample
+
+print(randint(1, 6))
+print(sample([1, 2, 4, 9, 16, 25, 36, 49, 64, 81, 100], 3))
 ```
