@@ -19,6 +19,11 @@
 * Method: one line before and after
 
 
+### Line Length
+
+* Maximum: 72 characters
+
+
 ## Long lines of code
 
 Long lines of code that have parentheses (round brackets) can be split over multiple lines.
