@@ -48,7 +48,7 @@ class Person:
         """Getter method for name."""
         return self.__name
         
-    def info(self) -> tuple:
+    def info(self) -> tuple[str, int]:
         """Method to access person information."""
         
         return self.__name, self.__age
@@ -94,7 +94,7 @@ class Pupil(Person):
         """Setter method for year_group."""
         self.__year_group = year_group
         
-    def info(self) -> tuple:
+    def info(self) -> tuple[str, int, str]:
         """Method to access pupil information.""" \
         + """Overwrites superclass method."""
         
