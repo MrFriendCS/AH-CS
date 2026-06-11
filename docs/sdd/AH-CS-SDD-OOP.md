@@ -29,8 +29,9 @@ class Person:
     """A class to define a person."""
 
     def __init__(self, name: str='TBC', age: int=0):
-        """Object constructor method. """ \
-        + """Automatically called when an object is created."""
+        """Object constructor method.
+           Automatically called when an object is created.
+           """
         
         # Class properties - Private
         self.__name = name
@@ -77,8 +78,9 @@ class Pupil(Person):
     """A class to define a pupil.  Inherits from the Person class."""
 
     def __init__(self, name: str='TBC', age: int=5, year_group: str='P1'):
-        """Object constructor method. """ \
-        """Automatically called when an object is created."""
+        """Object constructor method.
+           Automatically called when an object is created.
+           """
         
         # Use superclass initilisation
         super().__init__(name, age)

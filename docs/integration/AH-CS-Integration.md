@@ -9,17 +9,17 @@ import sqlite3
 
 # Create a connection to a database
 # Creates a new database file, if it doesn’t exist
-conn = sqlite3.connect('example.db')
+connection = sqlite3.connect('example.db')
 
 # Create a database cursor
-cursor = conn.cursor()
+cursor = connection.cursor()
 
 #
 # SQL goes here
 #
 
 # Close the connection to the database
-conn.close()
+connection.close()
 ```
 
 
@@ -31,7 +31,7 @@ conn.close()
 # SQL to create a table - if it does not exist
 new_table = '''
 CREATE TABLE IF NOT EXISTS Manufacturer (
-    manufacturerID INT NOT NULL,
+    manufacturerID INTEGER NOT NULL,
     name VARCHAR(20),
     address VARCHAR(40),
     telephone VARCHAR(11) 
