@@ -89,6 +89,18 @@ Arithmetic operators can be combined with the assignment operator.
 | **=      | x **= 3 | x = x ** 3 |
 
 
+## Dummy Variables
+
+When a variable is not going to be used, e.g. in a loop, then an underscore (`_`) can be used instead of a variable.
+Using an underscore can make it clearer that the loop variable is not not in the loop.
+
+``` python
+for _ in range(5):
+
+    print('Hi')
+```
+
+
 ## Import
 
 
