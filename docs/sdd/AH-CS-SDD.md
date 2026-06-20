@@ -91,13 +91,24 @@ Arithmetic operators can be combined with the assignment operator.
 
 ## Dummy Variables
 
-When a variable is not going to be used, e.g. in a loop, then an underscore (`_`) can be used instead of a variable.
-Using an underscore can make it clearer that the loop variable is not not in the loop.
+When a loop variable is not going to be used in a loop, then an underscore (`_`) can be used instead of a variable name.
+Using an underscore can make it clearer that the loop variable is not used in the loop.
 
 ``` python
 for _ in range(5):
 
     print('Hi')
+```
+
+
+## main()
+
+Functions in a program can be tested if all code is within functions.
+However, if the file is imported by another file to be tested, it should not run.
+This can be achieved by adding the following code.
+
+``` python
+if __name__ == '__main__': main()
 ```
 
 
@@ -117,7 +128,7 @@ print(random.randint(1, 6))
 
 ### Specific Code
 
-To import individual functions, records, and classes from a module use `from` _module name_ and `import` _object name_.
+To import individual functions, records, or classes from a module use `from` _module name_ and `import` _object name_.
 
 ``` python
 from random import randint
@@ -125,7 +136,7 @@ from random import randint
 print(randint(1, 6))
 ```
 
-To import multiple functions, records, and classes, they can be named individualy.
+To import multiple functions, records, or classes, they can be named individualy.
 
 ``` python
 from random import randint, sample

@@ -89,7 +89,7 @@ SELECT *
 # Run query and store result
 result = cursor.execute(query)
 
-# Dislay all rows
+# Display each row
 for row in result:
     
     # Display row
