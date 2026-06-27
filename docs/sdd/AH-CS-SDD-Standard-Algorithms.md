@@ -4,13 +4,13 @@
 ## Bubble Sort
 
 ``` python
-array = [7, 2, 6, 5, 4, 3, 1]
+array: list[int] = [7, 2, 6, 5, 4, 3, 1]
 
 # Get number of elements
-n = len(array)
+n: int = len(array)
 
 # Turn sort on
-sort = True
+sort: bool = True
 
 # Sort if needed
 while sort == True:
@@ -40,10 +40,10 @@ while sort == True:
 ## Insertion Sort
 
 ``` Python
-array = [7, 2, 4, 5, 3, 6, 1]
+array: list[float] = [7.1, 2.9, 4.3, 5.7, 3.2, 6.1, 1.9]
 
-current_value = 0
-position = 0
+current_value: float = 0.0
+position: int = 0
 
 # Loop over array
 for index in range(1, len(array)):
@@ -71,15 +71,15 @@ for index in range(1, len(array)):
 ## Binary Search
 
 ``` Python
-array = [1, 2, 3, 4, 5, 6, 7]
-target = 5
+array: list[int] = [1, 2, 3, 4, 5, 6, 7]
+target: int = 5
 
 # First and last index of array
-start = 0
-end = len(array) - 1
+start: int = 0
+end: int = len(array) - 1
 
 # Result
-found = False
+found: bool = False
 
 # Loop until found, or all elements checked
 while not found and (start <= end):

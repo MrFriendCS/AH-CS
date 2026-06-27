@@ -53,7 +53,7 @@ __Note__: an operator should be at the start of the new line.
 An f-string can be used instead of concatenating variables.
 
 ``` python
-pi = 3.14159265359
+pi: float = 3.14159265359
 
 print(f'pi = {pi}')
 ```
@@ -70,6 +70,13 @@ An f-string can include a calculation.
 
 ``` python
 print(f'Enjoy a raspberry pie for only £{pi*2:.2f}!')
+
+```
+
+An f-string can align text.
+
+``` python
+print(f'Left: {1:<5} Center: {2:^5} Right: {3:>5}')
 
 ```
 

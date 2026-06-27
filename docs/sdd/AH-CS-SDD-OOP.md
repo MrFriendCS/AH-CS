@@ -34,8 +34,8 @@ class Person:
            """
         
         # Class properties - Private
-        self.__name = name
-        self.__age = age
+        self.__name: str = name
+        self.__age: int = age
 
     def get_age(self) -> int:
         """Getter method for age."""
@@ -59,7 +59,7 @@ An example of instantiation, creating an object, is shown below:
 
 ``` python
 # Create a new object
-new_person = Person('Tom', 25)
+new_person: Person = Person('Tom', 25)
 
 # Display their age
 print(new_person.get_age())
@@ -86,7 +86,7 @@ class Pupil(Person):
         super().__init__(name, age)
         
         # Sub-class property - Private
-        self.__year_group = year_group
+        self.__year_group: str = year_group
 
     def get_year_group(self) -> str:
         """Getter method for year_group."""
@@ -107,7 +107,7 @@ An example is shown below:
 
 ``` python
 # Create a new object
-new_pupil = Pupil('Emma', 17, 'S5')
+new_pupil: Pupil = Pupil('Emma', 17, 'S5')
 
 # Display their age - Encapulation!
 print(new_pupil.get_age())
@@ -132,14 +132,14 @@ The data to create an array of objects could be read from a file.
 
 ``` python
 # Data for the objects
-people = ['Alan,24','Beth,23','Carl,22','Dina,21']
+people: list[str] = ['Alan,24','Beth,23','Carl,22','Dina,21']
 ```
 
 Create an empty array.
 
 ```
 # Empty array
-array_of_objects = []
+array_of_objects: list[Person] = []
 ```
 
 Loop for each object, create an object and append to the empty array
@@ -156,7 +156,7 @@ for index in range(len(people)):
     age = int(data[1])
     
     # Create new object and append to array
-    array_of_objects.append(Person(name, age))
+    array_of_objects += [Person(name, age)]
 ```
 
 Loop for each object in array.
