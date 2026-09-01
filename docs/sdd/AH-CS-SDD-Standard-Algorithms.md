@@ -71,8 +71,8 @@ for index in range(1, len(array)):
 ## Binary Search
 
 ``` Python
-array: list[int] = [1, 2, 3, 4, 5, 6, 7]
-target: int = 5
+array: list[int] = [3, 18, 21, 29, 51, 76, 82]
+target: int = 51
 
 # First and last index of array
 start: int = 0
