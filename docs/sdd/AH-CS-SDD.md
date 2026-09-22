@@ -115,7 +115,9 @@ However, if the file is imported by another file to be tested, it should not run
 This can be achieved by adding the following code.
 
 ``` python
-if __name__ == '__main__': main()
+if __name__ == '__main__':
+
+    main()
 ```
 
 
