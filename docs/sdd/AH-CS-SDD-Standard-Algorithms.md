@@ -4,7 +4,9 @@
 ## Bubble Sort
 
 ``` python
+# Initialise variables
 array: list[int] = [7, 2, 6, 5, 4, 3, 1]
+temp: int = 0
 
 # Get number of elements
 n: int = len(array)
@@ -40,6 +42,7 @@ while sort == True:
 ## Insertion Sort
 
 ``` Python
+# Initialise variables
 array: list[float] = [7.1, 2.9, 4.3, 5.7, 3.2, 6.1, 1.9]
 
 current_value: float = 0.0
@@ -71,6 +74,7 @@ for index in range(1, len(array)):
 ## Binary Search
 
 ``` Python
+# Initialise variables
 array: list[int] = [3, 18, 21, 29, 51, 76, 82]
 target: int = 51
 
