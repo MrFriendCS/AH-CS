@@ -45,7 +45,7 @@ answer = 1 + 2 \
 print(answer)
 ```
 
-__Note__: an operator should be at the start of the new line.
+**Note**: an operator should be at the start of the new line.
 
 
 ## String Formatting
