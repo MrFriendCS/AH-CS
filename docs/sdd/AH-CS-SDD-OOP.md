@@ -28,7 +28,7 @@ Accessor (getter) and mutator (setter) methods will need to be provided to acces
 class Person:
     """A class to define a person."""
 
-    def __init__self, name: str='TBC', age: int=0):
+    def __init__(self, name: str='TBC', age: int=0):
         """Object constructor method.
            Automatically called when an object is created.
            """
@@ -77,7 +77,7 @@ A method can be overridden with a new method of the same name.
 class Pupil(Person):
     """A class to define a pupil.  Inherits from the Person class."""
 
-    def __init__self, name: str='TBC', age: int=5, year_group: str='P1'):
+    def __init__(self, name: str='TBC', age: int=5, year_group: str='P1'):
         """Object constructor method.
            Automatically called when an object is created.
            """
