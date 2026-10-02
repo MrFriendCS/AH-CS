@@ -5,35 +5,35 @@
 class NodeSingle:
     """Declare a class to define a singly linked list node."""
 
-    def **init**(self, data=None, next_pointer=None):
+    def __init__(self, data=None, next_pointer=None):
         """Object constructor method.  Automatically called when an object is created."""
 
         # Class properties - Private
-        self.**data = data
-        self.**next_pointer = next_pointer
+        self.__data = data
+        self.__next_pointer = next_pointer
     
-    def **str**(self):
+    def __str__(self):
         """Overwrite print()."""
-        return f"Data: {self.**data}"
+        return f"Data: {self.__data}"
     
     
     # Class methods - Public
 
     def get_data(self):
         """Getter method for data."""
-        return self.**data
+        return self.__data
 
     def set_data(self, data=None):
         """Setter method for data."""
-        self.**data = data
+        self.__data = data
     
     def get_next(self):
         """Getter method for pointer to next node."""
-        return self.**next_pointer
+        return self.__next_pointer
 
     def set_next(self, next_pointer=None):
         """Setter method for pointer to next node."""
-        self.**next_pointer = next_pointer
+        self.__next_pointer = next_pointer
 ```
 
 ``` python

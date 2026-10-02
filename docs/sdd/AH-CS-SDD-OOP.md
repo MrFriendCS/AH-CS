@@ -14,12 +14,12 @@ Objects have instance variables, also known as properties, and methods:
 The `class` keyword is used to declare the _blueprint_ for new objects.
 New classes are named using `CapitalisedWords`.
 
-A class contains a constructor method, `**init**`, which is used to create a new object.
+A class contains a constructor method, `__init__`, which is used to create a new object.
 It is called automatically when an object is created.
 
 It is normal for `self` to be the first parameter of any method.  `self` refers to the current object.
 
-Properties and methods are kept private by using a double underscore (`**`) before the name of a property or method.
+Properties and methods are kept private by using a double underscore (`__`) before the name of a property or method.
 If a property or method is private, it can only be accessed from within the object.
 This is know as ***encapsulation***.
 Accessor (getter) and mutator (setter) methods will need to be provided to access or change the value of a private property.
@@ -28,31 +28,31 @@ Accessor (getter) and mutator (setter) methods will need to be provided to acces
 class Person:
     """A class to define a person."""
 
-    def **init**(self, name: str='TBC', age: int=0):
+    def __init__self, name: str='TBC', age: int=0):
         """Object constructor method.
            Automatically called when an object is created.
            """
         
         # Class properties - Private
-        self.**name: str = name
-        self.**age: int = age
+        self.__name: str = name
+        self.__age: int = age
 
     def get_age(self) -> int:
         """Getter method for age."""
-        return self.**age
+        return self.__age
 
     def set_age(self, age: int=0) -> None:
         """Setter method for age."""
-        self.**age = age
+        self.__age = age
     
     def get_name(self) -> str:
         """Getter method for name."""
-        return self.**name
+        return self.__name
         
     def info(self) -> tuple[str, int]:
         """Method to access person information."""
         
-        return self.**name, self.**age
+        return self.__name, self.__age
 ```
 
 An example of instantiation, creating an object, is shown below:
@@ -77,30 +77,30 @@ A method can be overridden with a new method of the same name.
 class Pupil(Person):
     """A class to define a pupil.  Inherits from the Person class."""
 
-    def **init**(self, name: str='TBC', age: int=5, year_group: str='P1'):
+    def __init__self, name: str='TBC', age: int=5, year_group: str='P1'):
         """Object constructor method.
            Automatically called when an object is created.
            """
         
         # Use superclass initilisation
-        super().**init**(name, age)
+        super.__init__(name, age)
         
         # Sub-class property - Private
-        self.**year_group: str = year_group
+        self.__year_group: str = year_group
 
     def get_year_group(self) -> str:
         """Getter method for year_group."""
-        return self.**year_group
+        return self.__year_group
 
     def set_year_group(self, year_group: str='P1') -> None:
         """Setter method for year_group."""
-        self.**year_group = year_group
+        self.__year_group = year_group
         
     def info(self) -> tuple[str, int, str]:
         """Method to access pupil information.""" \
         + """Overwrites superclass method."""
         
-        return self.get_name(), self.get_age(), self.**year_group
+        return self.get_name(), self.get_age(), self.__year_group
 ```
 
 An example is shown below:
